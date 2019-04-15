@@ -2,6 +2,10 @@
 
 A bunch of miscellanous scripts
 
+## cleanKey.py
+
+Removes unnecessary keys on in your graph editor. This one has a UI to adjust tolerance
+
 ## hideControls.py
 
 Will put controls on a layer for the user to toggle visibility of the controls
