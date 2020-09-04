@@ -1,6 +1,6 @@
 # Miscellaneous Scripts
 
-A bunch of miscellanous scripts for Maya
+A bunch of miscellaneous scripts for Maya
 
 ## cleanKey.py
 
