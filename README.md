@@ -1,6 +1,6 @@
 # Miscellaneous Scripts
 
-A bunch of miscellanous scripts
+A bunch of miscellanous scripts for Maya
 
 ## cleanKey.py
 
@@ -17,3 +17,7 @@ Toggles global out tangent from "auto" to "step" or vice versa
 ## infinityCurve.py
 
 Changes infinity curve settings. Cyclic order: constant, cycle, cycleRelative(aka cycle with offset)
+
+## middleFrame.py
+
+Find the median frame from the highlighted frame range on the time slider
