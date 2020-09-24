@@ -4,7 +4,7 @@ A bunch of miscellaneous scripts for Maya
 
 ## cleanKey.py
 
-Removes unnecessary keys on in your graph editor. This one has a UI to adjust tolerance
+Removes unnecessary keys in your graph editor. This one has a UI to adjust tolerance
 
 ## hideControls.py
 
