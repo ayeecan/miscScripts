@@ -21,3 +21,7 @@ Changes infinity curve settings. Cyclic order: constant, cycle, cycleRelative(ak
 ## middleFrame.py
 
 Find the median frame from the highlighted frame range on the time slider
+
+## locOnSel.py
+
+Create a locator and match its position to an object. Creates a locator for each object in selection
