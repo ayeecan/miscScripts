@@ -4,7 +4,10 @@ def getValues():
     """Get highlighted values from Time Slider"""
     slider = mel.eval("$tmpVar=$gPlayBackSlider")
     timeRange = cmds.timeControl(slider, q = True, rangeArray = True)
-    return timeRange
+    firstFrame = timeRange[0]
+    lastFrame = timeRange[1] - 1
+    
+    return firstFrame, lastFrame
 
 def findMid():
     """Find the middle between selected frame range"""
