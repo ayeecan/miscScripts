@@ -4,7 +4,7 @@ def getObjs():
     """Get Objects from keys"""
     animCurves = cmds.keyframe(q = True, sl = True, n = True)
     if animCurves is None:
-        return animCurves
+        return None
     
     objs = cmds.listConnections(animCurves)
     
