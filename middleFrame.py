@@ -1,4 +1,4 @@
-from maya import cmds, mel
+from maya import cmds, mel, OpenMaya as om
 
 def getValues():
     """Get highlighted values from Time Slider"""
@@ -13,6 +13,6 @@ def findMid():
     """Find the middle between selected frame range"""
     firstFrame,lastFrame = getValues()
     middle = (firstFrame + lastFrame) / 2
-    print "Middle frame is {0}".format(middle),
+    om.MGlobal.displayInfo("Middle frame is {0}".format(middle))
 
 findMid()
