@@ -26,6 +26,10 @@ Create a locator and match its position to an object. Creates a locator for each
 
 Find the median frame from the highlighted frame range on the time slider
 
+## reloadGraphEditor.py
+
+Built in Maya 2022, this is a solution I came up with to reload the graph editor when it stopped loading. Only tested if the graph editor is docked
+
 ## selFromKeys.py
 
 Select only the objects that have their keys or anim curve selected from the graph editor
